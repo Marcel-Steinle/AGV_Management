@@ -43,6 +43,10 @@ public class Agv
     public Agv(uint[] station)
     {
         this.station = station;
+        this.position = station;
+        this.richtung = 0;
+        this.auftrag = new Auftrag(0, [0, 0], [0, 0], 0, 2);
+        this.weg = [];
     }
 
     public void fahre()
@@ -52,7 +56,11 @@ public class Agv
 
     public void auftragBeenden(Auftrag auftrag)
     {
-
+        if(this.Position == this.auftrag.Endpunkt)
+        {
+            this.weg = [];
+            this.auftrag.Status = 0; // WIP
+        }
     }
 
     public void findeWeg(Landkarte karte)
@@ -71,7 +79,7 @@ public class Agv
         }
     }
 
-    void auftragAbbrechen()
+    public void auftragAbbrechen()
     {
         
     }

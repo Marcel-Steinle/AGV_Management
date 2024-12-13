@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DESTMARC\\source\\repos\\AGV_Management\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5C849F46-8EF5-4BAC-B8AF-7983F48FE583}|AGV_Management\\AGV_Management.csproj|c:\\users\\destmarc\\source\\repos\\agv_management\\agv_management\\agv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C849F46-8EF5-4BAC-B8AF-7983F48FE583}|AGV_Management\\AGV_Management.csproj|solutionrelative:agv_management\\agv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C849F46-8EF5-4BAC-B8AF-7983F48FE583}|AGV_Management\\AGV_Management.csproj|c:\\users\\destmarc\\source\\repos\\agv_management\\agv_management\\agv_management.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5C849F46-8EF5-4BAC-B8AF-7983F48FE583}|AGV_Management\\AGV_Management.csproj|solutionrelative:agv_management\\agv_management.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Agv.cs",
+              "DocumentMoniker": "C:\\Users\\DESTMARC\\source\\repos\\AGV_Management\\AGV_Management\\Agv.cs",
+              "RelativeDocumentMoniker": "AGV_Management\\Agv.cs",
+              "ToolTip": "C:\\Users\\DESTMARC\\source\\repos\\AGV_Management\\AGV_Management\\Agv.cs*",
+              "RelativeToolTip": "AGV_Management\\Agv.cs*",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T12:25:52.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AGV_Management",
+              "DocumentMoniker": "C:\\Users\\DESTMARC\\Source\\Repos\\AGV_Management\\AGV_Management\\AGV_Management.csproj",
+              "RelativeDocumentMoniker": "AGV_Management\\AGV_Management.csproj",
+              "ToolTip": "C:\\Users\\DESTMARC\\Source\\Repos\\AGV_Management\\AGV_Management\\AGV_Management.csproj",
+              "RelativeToolTip": "AGV_Management\\AGV_Management.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-13T12:25:50.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
