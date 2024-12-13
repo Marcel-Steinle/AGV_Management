@@ -7,12 +7,12 @@ public abstract class BahnElement
 {
 
   private uint ausrichtung;
-  private bool[] hatVerbindung;
+  private bool[] verbindung;
 
 
   public BahnElement(uint ausrichtung)
   {
-    this.hatVerbindung = new bool[4];
+    this.verbindung = new bool[4];
     this.ausrichtung = ausrichtung;
     if(this.ausrichtung >= 4) this.ausrichtung = 0;
   }
@@ -28,14 +28,14 @@ public abstract class BahnElement
   }
 
 
-  public void setHatVerbindung(uint index, bool verbindung)
+  public void setVerbindung(uint index, bool verbindung)
   {
-    this.hatVerbindung[index] = verbindung;
+    this.verbindung[index] = verbindung;
   }
 
-  public bool getHatVerbindung(uint index)
+  public bool getVerbindung(uint index)
   {
-    return this.hatVerbindung[index];
+    return this.verbindung[index];
   }
 
   public void setAusrichtung(uint ausri)
