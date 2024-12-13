@@ -1,6 +1,6 @@
 
 
-public abstract class Gerade : BahnElement
+public class Gerade : BahnElement
 {
 
 

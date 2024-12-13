@@ -1,6 +1,6 @@
 
 
-public abstract class Kurve : BahnElement
+public class Kurve : BahnElement
 {
 
 

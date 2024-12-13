@@ -1,6 +1,6 @@
 
 
-public abstract class Station : BahnElement
+public class Station : BahnElement
 {
 
 

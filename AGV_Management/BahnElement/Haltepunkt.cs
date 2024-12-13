@@ -1,6 +1,6 @@
 
 
-public abstract class Haltepunkt : BahnElement
+public class Haltepunkt : BahnElement
 {
 
 
