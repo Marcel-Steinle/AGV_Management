@@ -1,10 +1,16 @@
 public class Auftrag
 {
+    
+    //Variablen der Klasse Auftrag
+
     private uint auftragID;
     private uint[] startpunkt;
     private uint[] endpunkt; 
     private uint prioritaet; 
-    private uint status;
+    private uint status; // 0 = Ausstehend, 1 = In Bearbeitung, 2 = Erledigt
+
+
+    // Getter & Setter
 
     public uint AuftragID
     {
@@ -36,20 +42,13 @@ public class Auftrag
         set { status = value; }
     }
 
-    public Auftrag(uint auftragID, uint[] startpunkt, uint[] endpunkt, uint prioritaet, uint status)
+    // Konstruktor der Klasse Auftrag
+    public Auftrag(uint auftragID, uint[] startpunkt, uint[] endpunkt, uint prioritaet, uint status = 0)
     {
         this.auftragID = auftragID;
         this.startpunkt = startpunkt;
         this.endpunkt = endpunkt;
         this.prioritaet = prioritaet;
         this.status = status;
-    }
-    public void setStatus(uint status)
-    {
-        this.status = status; 
-    }
-    public uint getStatus()
-    {
-        return this.status; 
     }
 }
