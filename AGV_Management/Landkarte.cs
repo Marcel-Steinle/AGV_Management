@@ -70,7 +70,7 @@ public class Landkarte
 
   public uint[][] erstelleWeg(uint[][] ziele)
   {
-
+    
     return null;
   }
   

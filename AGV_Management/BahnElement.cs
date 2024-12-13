@@ -47,4 +47,10 @@ public abstract class BahnElement
   {
     return this.ausrichtung;
   }
+
+  public uint Ausrichtung
+  {
+    get { return this.ausrichtung; }
+    set { this.ausrichtung = Math.Max(0, Math.Min(3, value)); }
+  }
 }
