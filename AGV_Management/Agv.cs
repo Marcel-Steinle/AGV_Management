@@ -15,7 +15,7 @@ public class Agv
     public uint[] Position
     {
         get { return position; }
-        set { postition = value; }
+        set { position = value; }
     }
 
     public uint[] Station
@@ -27,7 +27,7 @@ public class Agv
     public uint Richtung
     {
         get { return richtung; }
-        set { richtung = richtung }
+        set { richtung = value }
     }
 
     public uint[][] Weg
@@ -57,7 +57,7 @@ public class Agv
 
     public void findeWeg(Landkarte karte)
     {
-
+        
     }
 
     public bool bereit()
