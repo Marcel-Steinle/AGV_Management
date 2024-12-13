@@ -1,10 +1,12 @@
 ﻿namespace AGV_Management
 {
-    internal class Program
+  internal class Program
+  {
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
+      Console.WriteLine("Hello, World!");
+      // Landkarte landkarte = new Landkarte();
+      // Console.WriteLine(landkarte.Karte[0,2].GetType());
     }
+  }
 }

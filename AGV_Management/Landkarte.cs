@@ -1,5 +1,7 @@
 
 
+using System.Runtime.InteropServices;
+
 public class Landkarte
 {
 
@@ -8,7 +10,7 @@ public class Landkarte
 
   public Landkarte()
   {
-
+    getKarteAusDatei();
   }
 
   public void getKarteAusDatei(string path="C:\\Users\\DEBLUFLO\\Desktop\\karte.txt")
@@ -22,7 +24,7 @@ public class Landkarte
     {
       for(int j = 0; j < hoehe; j++)
       {
-        char[] zelle = infos[i * breite + hoehe + 2].ToCharArray();
+        char[] zelle = infos[i * breite + j + 2].ToCharArray();
         char bahnTyp = zelle[0];
         uint richtung = Convert.ToUInt32(zelle[1]);
         switch(bahnTyp)
@@ -71,4 +73,10 @@ public class Landkarte
 
     return null;
   }
+  
+  public BahnElement[,] Karte
+    {
+        get { return karte; }
+        set { karte = value; }
+    }
 };
